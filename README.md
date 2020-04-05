@@ -48,3 +48,26 @@ kubectl proxy
 
 Dashboard link  
 http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/  https:kubernetes-dashboard:/proxy/  
+
+## Common Commands:  
+kubectl config view  
+kubectl config use-context minikube    
+kubectl get pods --all-namespaces  
+kubectl scale --replicas=5 deployment/azure-vote-front  
+https://kubernetes.io/pt/docs/reference/kubectl/cheatsheet/  
+https://dzone.com/articles/kubectl-commands-cheat-sheet  
+
+## Usefull Links:
+https://docs.microsoft.com/pt-br/azure/aks/tutorial-kubernetes-deploy-cluster  
+https://platform9.com/blog/kubernetes-enterprise-chapter-2-kubernetes-architecture-concepts/   
+https://rancher.com/learning-paths/introduction-to-kubernetes-architecture/  
+https://medium.com/containermind/a-beginners-guide-to-kubernetes-7e8ca56420b6  
+https://www.guru99.com/kubernetes-tutorial.html  
+https://learnk8s.io/  
+
+## Command for AKS
+az account set --subscription "<subscription>"  
+az aks get-credentials --resource-group "<resource-group>" --name "<clustername>"  
+
+
+
