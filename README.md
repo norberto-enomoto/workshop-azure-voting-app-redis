@@ -34,11 +34,12 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 https://github.com/kubernetes/dashboard  
 
 Install Dashboard:   
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-rc7/aio/  deploy/recommended.yaml  
+kubectl apply -f install-dashboard.yaml  
 kubectl delete ClusterRoleBinding kubernetes-dashboard  
-kubectl apply - dashboard-admin.yaml  
+kubectl apply -f dashboard-admin.yaml  
 
 How to get the token to login at Dashboard:  
+https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/README.md  
 kubectl -n kubernetes-dashboard get secret  
 kubectl -n kubernetes-dashboard describe secrets kubernetes-dashboard-token-xxxxx  
 
