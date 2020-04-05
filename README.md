@@ -31,19 +31,19 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## Tips to install Kubernetes Dashboard
-https://github.com/kubernetes/dashboard
+https://github.com/kubernetes/dashboard  
 
-Install Dashboard: 
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-rc7/aio/deploy/recommended.yaml
-kubectl delete ClusterRoleBinding kubernetes-dashboard
-kubectl apply - dashboard-admin.yaml
+Install Dashboard:   
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-rc7/aio/  deploy/recommended.yaml  
+kubectl delete ClusterRoleBinding kubernetes-dashboard  
+kubectl apply - dashboard-admin.yaml  
 
-How to get the token to login at Dashboard:
-kubectl -n kubernetes-dashboard get secret
-kubectl -n kubernetes-dashboard describe secrets kubernetes-dashboard-token-xxxxx
+How to get the token to login at Dashboard:  
+kubectl -n kubernetes-dashboard get secret  
+kubectl -n kubernetes-dashboard describe secrets kubernetes-dashboard-token-xxxxx  
 
-Run the Dashboard:
-kubectl proxy
+Run the Dashboard:  
+kubectl proxy  
 
-Dashboard link
-http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
+Dashboard link  
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/  https:kubernetes-dashboard:/proxy/  
