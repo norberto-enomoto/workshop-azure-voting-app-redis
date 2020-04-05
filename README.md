@@ -66,8 +66,8 @@ https://www.guru99.com/kubernetes-tutorial.html
 https://learnk8s.io/  
 
 ## Command for AKS
-az account set --subscription "<subscription>"  
-az aks get-credentials --resource-group "<resource-group>" --name "<clustername>"  
+az account set --subscription "subscription"  
+az aks get-credentials --resource-group "resource-group" --name "clustername"  
 
 
 
