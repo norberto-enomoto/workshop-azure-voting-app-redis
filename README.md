@@ -47,7 +47,7 @@ Run the Dashboard:
 kubectl proxy  
 
 Dashboard link  
-http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/  https:kubernetes-dashboard:/proxy/  
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/ https:kubernetes-dashboard:/proxy/  
 
 ## Common Commands:  
 kubectl config view  
