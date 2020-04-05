@@ -35,8 +35,6 @@ https://github.com/kubernetes/dashboard
 
 Install Dashboard:   
 kubectl apply -f install-dashboard.yaml  
-kubectl delete ClusterRoleBinding kubernetes-dashboard  
-kubectl apply -f dashboard-admin.yaml  
 
 How to get the token to login at Dashboard:  
 https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/README.md  
@@ -64,6 +62,7 @@ https://rancher.com/learning-paths/introduction-to-kubernetes-architecture/
 https://medium.com/containermind/a-beginners-guide-to-kubernetes-7e8ca56420b6  
 https://www.guru99.com/kubernetes-tutorial.html  
 https://learnk8s.io/  
+https://learnk8s.io/troubleshooting-deployments  
 
 ## Command for AKS
 az account set --subscription "subscription"  
