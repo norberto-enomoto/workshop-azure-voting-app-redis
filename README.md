@@ -64,7 +64,7 @@ https://www.guru99.com/kubernetes-tutorial.html
 https://learnk8s.io/  
 https://learnk8s.io/troubleshooting-deployments  
 
-## Red Hat - DevNation:
+## RedHat - DevNation:
 https://www.youtube.com/watch?v=0s_mlBjfZyY&feature=youtu.be  
 https://docs.google.com/presentation/d/1_tIqzM0_xCb_LugypH-XocYTr9Ft901fU_kdVXofBfA/edit  
 https://github.com/redhat-developer-demos/kubernetes-tutorial  
