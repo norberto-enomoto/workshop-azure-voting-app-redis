@@ -70,7 +70,7 @@ https://docs.google.com/presentation/d/1_tIqzM0_xCb_LugypH-XocYTr9Ft901fU_kdVXof
 https://github.com/redhat-developer-demos/kubernetes-tutorial  
 https://developers.redhat.com/books/migrating-microservice-databases-relational-monolith-distributed-data/  
 https://quay.io/repository/burrsutter/myboot  
-https://quay.io/repository/burrsutter/quarkus-demo  
+https://quay.io/repository/burrsutter/quarkus-demo    
 https://github.com/burrsutter/istio-workshop  
 https://github.com/burrsutter/istio-tutorial  
 https://github.com/burrsutter/knative-tutorial  
