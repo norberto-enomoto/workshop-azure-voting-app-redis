@@ -69,6 +69,12 @@ https://www.youtube.com/watch?v=0s_mlBjfZyY&feature=youtu.be
 https://docs.google.com/presentation/d/1_tIqzM0_xCb_LugypH-XocYTr9Ft901fU_kdVXofBfA/edit  
 https://github.com/redhat-developer-demos/kubernetes-tutorial  
 https://developers.redhat.com/books/migrating-microservice-databases-relational-monolith-distributed-data/  
+https://quay.io/repository/burrsutter/myboot  
+https://quay.io/repository/burrsutter/quarkus-demo  
+https://github.com/burrsutter/istio-workshop  
+https://github.com/burrsutter/istio-tutorial  
+https://github.com/burrsutter/knative-tutorial  
+https://github.com/burrsutter/blue-green-canary  
 
 ## Command for AKS
 az account set --subscription "subscription"  
