@@ -52,6 +52,11 @@ kubectl config view
 kubectl config use-context minikube    
 kubectl get pods --all-namespaces  
 kubectl scale --replicas=5 deployment/azure-vote-front  
+kubectl get services  
+kubectl describe service <servicename>  
+kubectl get pods  
+kubectl describe pod <podname>  
+kubectl exec -it pod <podname> /bin/bash  
 https://kubernetes.io/pt/docs/reference/kubectl/cheatsheet/  
 https://dzone.com/articles/kubectl-commands-cheat-sheet  
 
@@ -75,6 +80,7 @@ https://github.com/burrsutter/istio-workshop
 https://github.com/burrsutter/istio-tutorial  
 https://github.com/burrsutter/knative-tutorial  
 https://github.com/burrsutter/blue-green-canary  
+https://github.com/burrsutter/sidebyside  
 
 ## Command for AKS
 az account set --subscription "subscription"  
